@@ -1,0 +1,3 @@
+HOST=www.domain.com
+PORT=443
+echo | openssl s_client -showcerts -connect $HOST:$PORT
